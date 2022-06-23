@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirSoft GunShop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css"> 
+    <script src="https://kit.fontawesome.com/660b5483ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!--------ACCESSORIES SECTION---------->
+
+    <section class="contact-us">
+        <nav>   
+            <div class="logo">
+                <h2>TPK<span>Code.</span></h2>
+            </div>
+            
+            <div class="nav-links">
+                <ul id="MenuItems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="accessories.html">ACCESSORIES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="rifle.html">PRODUCT</a></li>
+                </ul>
+            </div>
+            <a href=""><img src="./images/basket.png" height="35px"></a>
+            <img src="./images/Menu-2-512.webp" height="30px" class="menu-icon" onclick="menutoggle()">
+        </nav>
+
+        <div class="header">
+            <h1>Contact us</h1>
+        </div>
+
+    </section>
+
+   <section class="form">
+        <div class="row">
+            <div class="col">
+                <h3>
+                    LOGIN FORM
+                </h3>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <p>Forgot your password?</p>
+                <button class="lgn">LOGIN</button>
+                <div class="or">
+                    <p>OR</p>
+                </div>
+            
+                <p><a href="https://www.facebook.com/" target="_blank"><img src="./images/fb icon.png"></a> <a href="https://accounts.google.com/servicelogin" target="_blank"><img src="./images/google icon.png"></a> <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank"><img src="./images/linked in icon.png"></p></a>
+            </div>
+
+            <div class="col">
+                <div class="float-row">
+                    <h3>Hello,Friend!</h3>
+                    <div class="pistol">
+                        <img src="./images/golden - Copy.png">
+                    </div>
+                  <div class="p">
+                      <p>
+                          Enter your personal details and start<br>
+                          explore with us
+                       </p>
+                  </div>
+                  <button class="sgn"><p>SIGN UP</p></button>
+                  
+                </div>
+            </div>
+        </div>  
+  
+    </section>
+
+    <section class="information">
+        <div class="row">
+            <div class="col">
+              <div>
+                  <i class="fa fa-home"></i>
+                   <span>
+                       <h5>TPK Road, PTK Building</h5>
+                       <p>Tebag, Pangasinan, Ph</p>
+                  </span>
+              </div>
+             
+               <div>
+                  <i class="fa fa-phone"></i>
+                  <span>
+                      <h5>+63 9657832456</h5>
+                      <p>Monday-Saturday, 10AM to 5PM</p>
+                  </span>
+               </div>
+             
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>TPK@coding.com</h5>
+                        <p>Email us your querry</p>
+                  </span>
+                </div>
+       
+              
+            </div>
+            <div class="col">
+                <input type="text" placeholder="Enter your name"><br>
+                <input type="email" placeholder="Enter email address"><br>
+                <input type="number" placeholder="Phone number"><br>
+                <textarea name="Message"  cols="75" rows="10" placeholder="Message :"></textarea><br>
+                <button><p>Send Message</p></button>
+
+            </div>
+        </div>
+    </section>
+
+  <!--------FOOTER SECTION---------->
+
+ <section class="footer">
+    <div class="brands">
+        <div class="row">
+            <div class="col">
+                <img src="./images/coca-cola.jpg">
+            </div>
+            <div class="col">
+                <img src="./images/gcash.png">
+            </div>
+            <div class="col">
+                <img src="./images/oppo.png">
+            </div>
+            <div class="col">
+                <img src="./images/paypal.webp">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-footer">
+        <div class="information-footer">
+            <h5>Information</h5>
+            <p>pages</p>
+            <p>our team</p>
+            <p>features</p>
+            <p>places</p>
+        </div>
+        <div class="resources">
+            <h5>Resources</h5>
+            <p>Monitoring Grader</p>
+            <p>Video creating</p>
+            <p>Terms and services</p>
+            <p>Google API</p>
+        </div>
+        <div class="help">
+            <h5>Help</h5>
+            <p>Sign up</p>
+            <p>Login</p>
+            <p>Terms and service</p>
+            <p>Privacy policy</p>
+        </div>
+        <div class="contact">
+            <h5>Contact</h5>
+            <p>Contact us if need help</p>
+            <p>with anything</p>
+            <p>call</p>
+            <p><img src="./images/fb icon.png"> <img src="./images/ig.png"> <img src="./images/linked in icon.png"></p>
+        </div>
+    </div>
+</section> 
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="jquery.flipster.min.js"></script>
+
+   <script>
+      $('.carousel').flipster({
+        style:'carousel',
+        spacing: -0.3,
+      });
+   </script>
+
+    <!---------js for toggle menu--------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        }
+
+                    
+    </script>
+    
+</body>
+</html>

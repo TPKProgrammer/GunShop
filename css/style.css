@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url(./home.css);
+@import url(./check.css);
+@import url(./legendary.css);
+@import url(./footer.css);
+@import url(./accessories.css);
+@import url(./about.css);
+@import url(./contact.css);
+@import url(./pistol.css);
+@import url(./product-details/berreta.css);
+@import url(./rifle.css);
+@import url(./snipe.css);
+@import url(./melee.css);
+@import url(./product-details/ak-47.css);
+@import url(./product-details/koch\ g36.css);
+@import url(./product-details/m16.css);
+@import url(./product-details/m4a1.css);
+@import url(./product-details/hk-416.css);
+@import url(./product-details/ak74.css);
+@import url(./product-details/galil.css);
+@import url(./product-details/arctic-50.css);
+@import url(./product-details/awm.css);
+@import url(./product-details/blaser.css);
+@import url(./product-details/cheytac.css);
+@import url(./product-details/mac.css);
+@import url(./product-details/steyrssg.css);
+@import url(./product-details/magnum.css);
+@import url(./product-details/barrett.css);
+@import url(./product-details/fn\ 509.css);
+@import url(./product-details/dragon.css);
+@import url(./product-details/glock26.css);
+@import url(./product-details/graypro.css);
+@import url(./product-details/p30.css);
+@import url(./product-details/m2.css);
+@import url(./product-details/kov.css);
+@import url(./product-details/g26.css);
+@import url(./product-details/combat\ axe.css);
+@import url(./product-details/dagger.css);
+@import url(./product-details/karambit.css);
+@import url(./product-details/jungle.css);
+@import url(./product-details/combat\ knife.css);
+@import url(./product-details/pesh.css);
+@import url(./product-details/navaja.css);
+@import url(./product-details/scarlight.css);
+@import url(./product-details/steyraug.css);
+@import url(./product-details/sako.css);
+@import url(./product-details/golden.css);
+@import url(./product-details/kris.css);
+@import url(./product-details/kukri.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary: #c00202;
+}
+
+a {
+    text-decoration: none;
+}
+ 

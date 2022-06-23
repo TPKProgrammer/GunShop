@@ -1,0 +1,136 @@
+
+
+.products-snipe .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.products-snipe .row .hover-product .col .arc {
+    height: 60px;
+    margin-left: 8px;
+    margin-top: 70px;
+}
+
+.products-snipe .row .hover-product .col .awm {
+    height: 50px;
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 70px;
+}
+
+.products-snipe .row .hover-product .col .blaser {
+    height: 50px;
+    margin-left: 0;
+    margin-top: 70px;
+}
+
+.products-snipe .row .hover-product .col .cheytac {
+    height: 55px;
+    margin-top: 90px;
+    margin-left: 15px;
+}
+
+.products-snipe .row .hover-product .col .macmillan {
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.products-snipe .row .hover-product .col .sako {
+    margin-left: 2px;
+    margin-top: 65px;
+    height: 100px;
+}
+
+.products-snipe .row .hover-product .col  .steyr {
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 90px;
+}
+
+.products-snipe .row .hover-product .col  .magnum {
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+
+.products-snipe .row .hover-product .col .barrett {
+    margin-left: 9px;
+    height: 90px;
+    margin-top: 70px;
+}
+
+.products-snipe .row .col .img-border {
+    width: 188px;
+    height: 220px;
+    background: #D9D9D9;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.products-snipe .row .details h4  {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.products-snipe .row .details i {
+    color: var(--primary);
+}
+
+.products-snipe .row .details p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.products-snipe .row .hover-product .col a {
+    color: #000;
+}
+
+@media (max-width: 700px) {
+    .product nav {
+        padding: 0;
+    }
+
+    .product nav .logo h2 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    .product .nav-links ul {
+        top: 55px;
+        background: #D9D9D9;
+    }
+
+    .product nav .nav-links ul li a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    /*HEADER*/
+    .header .line {
+        margin-left: 10px;
+    }
+
+    .header h3 {
+        margin-left: 80px;
+        font-size: 17px;
+    }
+
+    .header .nav-guns {
+        margin-left: 20px;
+    }
+
+    .header .nav-guns ul li a {
+        font-size: 10px;
+    }
+
+    /*PRODUCTS*/
+    .products-snipe .row {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}

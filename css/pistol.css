@@ -1,0 +1,268 @@
+
+
+.product {
+    min-height: 100px;
+    width: 100%;
+}
+
+/*NAV*/
+.product nav {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.product nav h2 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #000;
+}
+
+.product nav .nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.product nav h2 span {
+    color: var(--primary);
+}
+
+.product nav .nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.product nav .nav-links ul li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--primary);
+    transform: scale(0,1);
+    transition: transform 200ms ease-in ;
+}
+
+.product nav .nav-links ul li a:hover::after {
+    transform: scale(1,1);
+}
+
+
+
+.product nav .nav-links ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.product nav .nav-links .fa-solid {
+    color: #c00202;
+    font-size: 25px;
+}
+
+.product nav .nav-links li:nth-child(6) a::after {
+    all: unset;
+}
+
+.product nav img {
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*HEADER*/
+.header {
+    margin-top: 65px;
+}
+
+.header h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 190px;
+}
+
+.header .line {
+    width: 85%;
+    height: 2px;
+    background: rgb(138, 136, 136);
+    margin-left: 100px;
+}
+
+/*NAV-GUNS*/
+.header .nav-guns {
+    margin-left: 115px;
+    display: flex;
+}
+
+.header .nav-guns ul {
+    display: flex;
+}
+
+.header .nav-guns ul li {
+    list-style: none;
+}
+
+.header .nav-guns ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.header .nav-guns ul li a:hover {
+    color: #ec2c2c;
+}
+
+.header .nav-guns ul li a:hover, .header .nav-guns ul li a.current {
+    color: var(--primary);
+}
+
+.header .nav-guns ul span {
+    display: block;
+    width: 2px;
+    height: 25px;
+    background-color: rgb(109, 104, 104);
+    margin-top: 3px;
+}
+
+/*PRODUCTS*/
+.products .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.products .row .col .img-border {
+    width: 188px;
+    height: 220px;
+    background: #e6e4e4;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.products .row .col img {
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.products .row .col .fn  {
+    height: 150px;
+    margin-top: 40px;
+}
+
+.products .row .col .glock {
+    height: 150px;
+    margin-top: 40px;
+}
+
+.products .row .col .pro {
+    height: 120px;
+}
+
+.products .row .col .hk {
+    height: 150px;
+    margin-top: 40px;
+}
+
+.products .row .col .m2 {
+    height: 165px;
+    margin-top: 30px;
+}
+
+.products .row .col .mv {
+    height: 120px;
+    margin-top: 55px;
+}
+
+/*DETAILS*/
+
+.products .row .details {
+    margin-right: 130px;
+    border-bottom: 1px dashed ;
+}
+
+.products .row .details h4  {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.products .row .details i {
+    color: var(--primary);
+}
+
+.products .row .details p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.hover-product {
+    transition: transform 0.5s;
+}
+
+.hover-product:hover {
+    transform: translateY(-5px);
+}
+
+.products .row .hover-product .col a {
+    color: #000;
+}
+
+@media (max-width: 700px) {
+    .product nav {
+        padding: 0;
+    }
+
+    .product nav .logo h2 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    .product .nav-links ul {
+        top: 55px;
+        background: #D9D9D9;
+    }
+
+    .product nav .nav-links ul li a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .product nav .nav-links ul li a::after {
+        all: unset;
+    }
+
+  
+ 
+
+    /*HEADER*/
+    .header .line {
+        margin-left: 10px;
+    }
+
+    .header h3 {
+        margin-left: 80px;
+        font-size: 17px;
+    }
+
+    .header .nav-guns {
+        margin-left: 20px;
+    }
+
+    .header .nav-guns ul li a {
+        font-size: 10px;
+    }
+
+    /*PRODUCTS*/
+    .products .row {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}

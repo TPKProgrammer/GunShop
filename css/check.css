@@ -1,0 +1,92 @@
+
+
+
+.check {
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+.check .carousel {
+    width: 360px;
+    margin: 0px auto 0;
+    overflow: visible;
+}
+
+.check .carousel img {
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    transition: transform 0.5s;
+}
+
+.check .carousel img:hover {
+    transform: translateY(-20px);
+}
+
+.check h2 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 80px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.check h2::after {
+    content: '';
+    width: 92px;
+    height: 10px;
+    background: var(--primary);
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.check p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+    .check .carousel img {
+        height: 150px;
+    }
+
+    .check .carousel {
+        margin: 100px auto 0;
+    }
+
+    .check p {
+        margin-top: 70px;
+    }
+
+    .check h2 {
+        font-size: 20px;
+    }
+
+    .check p {
+        font-size: 10px;
+    }
+
+    .check .carousel img {
+        -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.5));
+    }
+
+    .check h2::after {
+        content: '';
+        width: 70px;
+        height: 7px;
+        background: var(--primary);
+        position: absolute;
+        border-radius: 5px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}

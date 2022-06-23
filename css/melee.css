@@ -1,0 +1,66 @@
+
+.products .row .hover-product .col .axe  {
+    height: 130px;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+
+.products .row .hover-product .col .dagger {
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.products .row .hover-product .col .karambit {
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.products .row .hover-product .col .jungle {
+    height: 130px;
+    margin-left: -40px;
+    margin-top: 50px;
+}
+
+.products .row .hover-product .col .combat {
+    height: 80px;
+    margin-left: 3px;
+    margin-top: 70px;
+}
+
+.products .row .hover-product .col .kris {
+    height: 100px;
+    margin-left: 3px;
+    margin-top: 70px;
+}
+
+.products .row .hover-product .col .kukri {
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 70px;
+}
+
+.products .row .hover-product .col .pesh {
+    height: 180px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.products .row .hover-product .col .navaja {
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 55px;
+}
+
+.header .nav-guns ul li a:hover, .header .nav-guns ul li a.active {
+    color: var(--primary);
+}
+
+.products .row .hover-product .col .img-border {
+    box-shadow: 10px 5px 10px 0 rgb(94, 91, 91);
+}
+
+.header .nav-guns ul li a:hover {
+    letter-spacing: 5px;
+}

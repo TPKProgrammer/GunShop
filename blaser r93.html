@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirSoft GunShop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css"> 
+    <script src="https://kit.fontawesome.com/660b5483ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!--------PRODUCT SECTION---------->
+
+    <section class="ak-47">
+        <nav>
+            <div class="logo">
+                <h2>TPK<span>Code.</span></h2>
+            </div>
+            
+            <div class="nav-links">
+                <ul id="MenuItems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="accessories.html">ACCESSORIES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="rifle.html">PRODUCT</a></li>
+                </ul>
+            </div>
+            <a href=""><img src="./images/basket.png" height="35px"></a>
+            <img src="./images/Menu-2-512.webp" height="30px" class="menu-icon" onclick="menutoggle()">
+        </nav>
+
+    </section>
+
+
+    <section class="product-details">
+        <div class="row">
+            <div class="col">
+                <div class="img-border">
+                    <img src="./images/blaser_r93-.png" class="blaser">
+                </div> 
+            </div>
+
+          <div class="relative">
+              <div class="col">
+                  <p>Blaser R93</p>
+                  <h2>Blaser R93 sniper <br> by TPK</h2>
+
+                  <div class="price">
+                      <p>PHP38,000</p>
+                  </div>
+
+                  <div class="sizes">
+                     <select name="size"><i class="fa-solid fa-angle-down"></i>
+                          <option>Select size</option>
+                          <option>Full size</option>
+                          <option>Small</option>
+                          <option>Medium</option>
+                          <option>Extra medium</option>
+                      </select>
+                  </div>
+
+                  <input class="pl" type="number" placeholder="0"> <button><a href="">Add To Cart</a> </button>
+
+                  <div class="discription">
+                    <h4>PRODUCT DETAILS</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id<br>
+                        convallis nulla. Duis ullamcorper enim nec massa pulvinar, in convallis<br>
+                        leo ornare. Ut facilisis faucibus dolor, at convallis nisi ultrices vel. Sed<br>
+                        rutrum viverra magna eu bibendum. Ut pretium a elit sit amet ultrices.<br>
+                        Suspendisse egestas nec nisl nec bibendum. Proin arcu eros, tempus vel<br>
+                        dui eget, fermentum vulputate lorem. Quisque ac volutpat ante. Praesent<br>
+                        accumsan nisl quis tortor laoreet euismod. Nunc sed massa non tortor<br>
+                        eleifend lacinia eget sed nulla. Nunc at purus euismod, semper elit ac,<br>
+                        blandit orci.</p>
+                  </div>
+              </div>
+          </div>
+           
+        </div>
+    </section>
+  <!--------FOOTER SECTION---------->
+
+ <section class="footer">
+        <div class="main-footer">
+            <div class="information-footer">
+                <h5>Information</h5>
+                <p>pages</p>
+                <p>our team</p>
+                <p>features</p>
+                <p>places</p>
+            </div>
+            <div class="resources">
+                <h5>Resources</h5>
+                <p>Monitoring Grader</p>
+                <p>Video creating</p>
+                <p>Terms and services</p>
+                <p>Google API</p>
+            </div>
+            <div class="help">
+                <h5>Help</h5>
+                <p>Sign up</p>
+                <p>Login</p>
+                <p>Terms and service</p>
+                <p>Privacy policy</p>
+            </div>
+            <div class="contact">
+                <h5>Contact</h5>
+                <p>Contact us if need help</p>
+                <p>with anything</p>
+                <p>call</p>
+                <p><img src="./images/fb icon.png"> <img src="./images/ig.png"> <img src="./images/linked in icon.png"></p>
+            </div>
+        </div>
+    </section> 
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="jquery.flipster.min.js"></script>
+
+   <script>
+      $('.carousel').flipster({
+        style:'carousel',
+        spacing: -0.3,
+      });
+   </script>
+
+    <!---------js for toggle menu--------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        }
+
+                    
+    </script>
+    
+</body>
+</html>

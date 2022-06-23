@@ -1,0 +1,35 @@
+
+
+.product-details .row .col .jungle {
+    height: 300px;
+    margin-left: -90px;
+    margin-top: 70px;
+}
+
+@media (max-width: 700px) {
+    .product-details .row .col .jungle {
+        height: 110px;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    .ak-47 nav {
+        padding: 0;
+    }
+
+    .ak-47 nav .logo h2 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    .ak-47 .nav-links ul {
+        top: 55px;
+        background: #D9D9D9;
+        z-index: 2;
+    }
+
+    .ak-47 nav .nav-links ul li a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+}

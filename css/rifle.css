@@ -1,0 +1,51 @@
+.products .row .hover-product .col a {
+    color: #000;
+}
+
+/*PRODUCTS SECTION*/
+.products .row .hover-product .col .AK  {
+    height: 90px;
+}
+
+.products .row .hover-product .col .KOCH {
+    height: 70px;
+}
+
+.products .row .hover-product .col .M {
+    height: 45px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.products .row .hover-product .col .M4 {
+    height: 70px;
+    margin-left: 10px;
+}
+
+.products .row .hover-product .col .scar {
+    margin-left: 10px;
+}
+
+.products .row .hover-product .col .aug {
+    margin-left: 5px;
+}
+
+.products .row .hover-product .col .koch {
+    height: 80px;
+    margin-left: 10px;
+}
+
+.products .row .hover-product .col .ak {
+    height: 80px;
+    margin-left: 7px;
+}
+
+.products .row .hover-product .col .galil {
+    height: 130px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.header .nav-guns ul li a:hover, .header .nav-guns ul li a.current {
+    color: var(--primary);
+}

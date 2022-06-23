@@ -1,0 +1,487 @@
+
+
+/*CONTACT-US*/
+.contact-us {
+    min-height: 50vh;
+    width: 100%;
+    background: rgba(0,0,0,0.7) url(../images/accessories\ bg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+
+/*NAV*/
+.contact-us nav {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.contact-us nav h2 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.contact-us nav .nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.contact-us nav h2 span {
+    color: var(--primary);
+}
+
+.contact-us nav .nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.contact-us nav .nav-links ul li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--primary);
+    transform: scale(0,1);
+    transition: transform 200ms ease-in ;
+}
+
+.contact-us nav .nav-links ul li a:hover::after {
+    transform: scale(1,1);
+}
+
+
+
+.contact-us nav .nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact-us nav .nav-links .fa-solid {
+    color: #c00202;
+    font-size: 25px;
+}
+
+.contact-us nav .nav-links li:nth-child(6) a::after {
+    all: unset;
+}
+
+.contact nav img {
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*HEADER*/
+.contact-us .header {
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-us .header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/*FORM*/
+.form .row {
+    width: 334px;
+    height: 366px;
+    background: #D9D9D9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-left: 24px;
+}
+
+.form .row .col h3 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.form .row .col input {
+    width: 278px;
+    height: 31px;
+    padding-left: 8px;
+    outline: none;
+    margin: 8px 0;
+    background: #726A6A;
+    color: #fff;
+    border: none;
+}
+
+.form ::placeholder {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.form .row .col p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.row .col .or p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.form .row .col .lgn {
+    width: 138px;
+    height: 35px;
+    background: var(--primary);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.form .row .col .lgn:hover {
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.form .row p img {
+    height: 27px;
+    padding: 5px;
+}
+
+.form .row p img:hover {
+    box-shadow: 0 0 15px 0;
+}
+
+.row .float-row {
+    width: 334px;
+    height: 366px;
+    background: linear-gradient(
+        to right,
+        #000 0%,
+        #000 50%,
+        #c00202 50%,
+        #c00202 100%
+    );
+    border-radius: 5px;
+    position: relative;
+}
+
+.form .row  {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.form .row .col .float-row h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.form .row .col .float-row .pistol img {
+    height: 180px;
+    margin-top: 30px;
+}
+
+.form .row .col .float-row .p {
+    position: absolute;
+    color: #fff;
+    top: 35%;
+    left: 10%;
+}
+
+.form .row .col .float-row .p p {
+    font-size: 13px;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+.form .row .col .float-row .sgn {
+    width: 115px;
+    height: 20px;
+    background: #AAAAAA;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-bottom: 37px;
+    margin: 5px 0;
+    position: absolute;
+    right: 32%;
+    bottom: 10%;
+    transition: 0.5s;
+}
+
+.form .row .col .float-row .sgn:hover {
+    background: #ec0a0a;
+}
+
+.form .row .col .float-row button .sgn p {
+    color: #000;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.form .row .col .float-row .sgn p:hover {
+    color: #fff;
+}
+
+/*INFORMATION*/
+
+ .information .row .col div {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 25px
+}
+
+.information .row .col {
+    margin-top: 50px;
+    flex-basis: 45%;
+}
+
+.information .row .col .fa {
+    margin: 15px;
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.information .row .col div p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.information .row {
+    display: flex;
+}
+
+.information .row .col input {
+    width: 510px;
+    height: 45px;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: rgb(112, 109, 109);
+}
+
+.information .row .col textarea {
+    margin: 15px 0;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.information .row .col button {
+    width: 140px;
+    height: 45px; 
+    border: 1px solid var(--primary);
+    background: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.information .row .col button:hover {
+    background: var(--primary);
+}
+
+.information .row .col button p {
+    color: var(--primary);
+    transition: 0.5s;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 3px;
+    transition: 1s;
+}
+
+.information .row .col button p:hover {
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .contact-us nav {
+        padding: 0;
+    }
+
+    .contact-us nav .logo h2 {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    .nav-links ul {
+        top: 55px;
+    }
+
+    .contact-us .header h1 {
+        font-size: 30px;
+    }
+
+    .contact-us nav .nav-links ul li a {
+        font-size: 10px;
+    }
+
+    .contact-us nav .nav-links ul li a::after {
+        all: unset;
+     }
+ 
+
+    .form .row {
+        flex-direction: column;
+        margin: 0;
+        margin: 50px 0 0;
+        width: 250px;
+        height: 300px;
+        margin-left: 60px;
+        padding-bottom: 11px;
+    }
+
+    .form .row .col {
+        margin: 0;
+    }
+
+    .form .row .col h3 {
+        font-size: 15px;
+    }
+
+    .form .row .col input {
+        width: 150px;
+        height: 25px;
+        margin: 5px 0;
+    }
+
+    .form ::placeholder {
+       font-size: 10px;
+       font-weight: 400;
+    }
+
+    .form .row .col p {
+        font-size: 10px;
+    }
+
+    .form .row .col .lgn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    /*FLOAT-ROW*/
+    .form .row .col .float-row h3 {
+        font-size: 17px;
+    }
+
+    .form .row .col .float-row .pistol img {
+        height: 130px;
+    }
+
+    .form .row .col .float-row .p p {
+        font-size: 9px;
+    }
+
+    .form .row .col .float-row .p {
+        left: 15%;
+        top: 40%;
+    }
+
+    .form .row .col .float-row .sgn {
+        bottom: 5%;
+        width: 100px;
+        right: 30%;
+    }
+
+    .row .float-row {
+        width: 250px;
+        height: 300px;
+        border-radius: 0;
+        margin-bottom: 10px;
+    }
+
+    /*INFORMATION*/
+    .information {
+        margin-top: 300px;
+    }
+
+    .information .row .col{
+        margin-top: 20px;
+    }
+
+    .information .row .col div {
+        margin-left: 25px;
+    }
+    .information .row .col input {
+        width: 310px;
+        height: 35px;
+        margin: 7px;
+        border: 1px solid;
+    }
+
+    .information .row {
+        flex-direction: column;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+    .information .row .col textarea {
+        width: 312px;
+        margin-left: 5px;
+        border: 1px solid;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .information .row .col {
+        margin-left: 20px;
+    }
+
+    .information .row .col button {
+        width: 100px;
+        height: 35px;
+        margin-left: 5px;
+    }
+
+    .information .row .col button p {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .footer .main-footer {
+        height: 100px;
+    }
+
+    .brands {
+        margin-top: 50px;
+    }
+}
